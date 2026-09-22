@@ -95,3 +95,5 @@ assert.throws(() => {
 }, RangeError);
 
 // End of tests
+
+console.log("🎉");

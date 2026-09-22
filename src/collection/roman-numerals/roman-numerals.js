@@ -53,3 +53,5 @@ assert.throws(() => {
 }, /^Error: Illegal argument$/);
 
 // End of tests
+
+console.log("🎉");

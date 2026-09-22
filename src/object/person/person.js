@@ -26,7 +26,6 @@ TODO :
 // Votre code ici !
 
 // Begin of tests
-/*
 const assert = require("assert");
 assert.strictEqual(typeof Person, "function", "Person class is undefined");
 if (typeof Person === "function") {
@@ -83,4 +82,5 @@ if (typeof Person === "function") {
 }
 
 // End of tests
-*/
+
+console.log("🎉");

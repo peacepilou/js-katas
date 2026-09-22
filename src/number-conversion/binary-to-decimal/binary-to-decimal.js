@@ -51,3 +51,5 @@ assert.throws(() => {
 }, /^Error: Illegal binary string$/);
 */
 // End of tests
+
+console.log("🎉");

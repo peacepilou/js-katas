@@ -50,3 +50,5 @@ assert.strictEqual(decode("- .- -.-. --- ..."), "TACOS");
 assert.strictEqual(decode(".-- .. .-.. -..   -.-. --- -.. ."), "WILD CODE");
 
 // End of tests
+
+console.log("🎉");

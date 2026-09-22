@@ -26,3 +26,5 @@ assert.strictEqual(encode.length, 1);
 // TODO add your tests:
 
 // End of tests
+
+console.log("🎉");

@@ -28,3 +28,5 @@ odd(nums);
 assert.deepStrictEqual(nums, [6, 7], "don't mutate the parameter");
 
 // End of tests
+
+console.log("🎉");

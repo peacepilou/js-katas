@@ -69,3 +69,5 @@ assert.strictEqual(search(tree, 6).value, 6);
 assert.strictEqual(search(tree, 13).value, 13);
 
 // End of tests
+
+console.log("🎉");

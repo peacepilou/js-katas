@@ -35,3 +35,5 @@ pascalCase(test);
 assert.strictEqual(test, "no mutation", "don't mutate the parameter");
 
 // End of tests
+
+console.log("🎉");

@@ -111,3 +111,5 @@ assert.throws(() => {
 }, /^Error: Illegal character$/);
 
 // End of tests
+
+console.log("🎉");

@@ -60,3 +60,5 @@ assert.strictEqual(chmod.length, 1);
 // TODO add your tests:
 
 // End of tests
+
+console.log("🎉");

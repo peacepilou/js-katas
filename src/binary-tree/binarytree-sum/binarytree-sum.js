@@ -83,3 +83,5 @@ assert.strictEqual(
 );
 
 // End of tests
+
+console.log("🎉");

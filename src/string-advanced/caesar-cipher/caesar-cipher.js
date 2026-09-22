@@ -27,3 +27,5 @@ assert.strictEqual(cipher.length, 2);
 // TODO add your tests:
 
 // End of tests
+
+console.log("🎉");

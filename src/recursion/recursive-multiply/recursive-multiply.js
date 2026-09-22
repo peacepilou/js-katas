@@ -45,3 +45,5 @@ assert.strictEqual(multiply(2, 3), 6);
 assert.strictEqual(multiply(4, 2), 8);
 
 // End of tests
+
+console.log("🎉");

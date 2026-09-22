@@ -46,3 +46,5 @@ assert.throws(() => {
   build("a");
 }, TypeError);
 // End of tests
+
+console.log("🎉");

@@ -28,3 +28,5 @@ assert.strictEqual(getScore([1, 1, 2, 2]), "2-2 : draw");
 assert.strictEqual(getScore([1, 2, 1, 3, 1, 2]), "Illegal argument");
 assert.strictEqual(getScore(["1", "2"]), "Illegal argument");
 // End of tests
+
+console.log("🎉");

@@ -63,3 +63,5 @@ const tree = new TreeNode(
 assert.strictEqual(max(tree), 11);
 
 // End of tests
+
+console.log("🎉");

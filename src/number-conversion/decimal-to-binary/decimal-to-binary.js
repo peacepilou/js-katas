@@ -32,3 +32,5 @@ assert.strictEqual(
 // TODO add your tests:
 
 // End of tests
+
+console.log("🎉");

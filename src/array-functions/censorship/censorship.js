@@ -71,3 +71,5 @@ assert.deepStrictEqual(
 );
 
 // End of tests
+
+console.log("🎉");

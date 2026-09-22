@@ -41,3 +41,5 @@ uniq(test);
 assert.deepStrictEqual(test, ["a", "a", "b"], "don't mutate the parameter");
 
 // End of tests
+
+console.log("🎉");

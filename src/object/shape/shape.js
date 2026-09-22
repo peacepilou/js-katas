@@ -104,3 +104,5 @@ if (typeof Square === "function") {
 }
 
 // End of tests
+
+console.log("🎉");

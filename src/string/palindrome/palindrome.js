@@ -19,4 +19,13 @@ Add you own tests.
 
 // TODO add your code here
 
-module.exports = isPalindrome;
+// Begin of tests
+const assert = require("assert");
+
+assert.strictEqual(typeof isPalindrome, "function");
+assert.strictEqual(isPalindrome.length, 1);
+
+// TODO add your tests here
+// End of tests
+
+console.log("🎉");

@@ -18,4 +18,13 @@ Add you own tests.
 
 // TODO add your code here
 
-module.exports = compare;
+// Begin of tests
+const assert = require("assert");
+
+assert.strictEqual(typeof compare, "function");
+assert.strictEqual(compare.length, 2);
+
+// TODO add your tests here
+// End of tests
+
+console.log("🎉");

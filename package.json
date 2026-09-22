@@ -1,9 +1,4 @@
 {
   "name": "js-katas",
-  "scripts": {
-    "test": "jest"
-  },
-  "devDependencies": {
-    "jest": "^27.5.1"
-  }
+  "private": true
 }

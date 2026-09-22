@@ -13,4 +13,13 @@ Add you own tests.
 
 // TODO add your code here
 
-module.exports = convertTime;
+// Begin of tests
+const assert = require("assert");
+
+assert.strictEqual(typeof convertTime, "function");
+assert.strictEqual(convertTime.length, 1);
+
+// TODO add your tests here
+// End of tests
+
+console.log("🎉");

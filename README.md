@@ -100,30 +100,26 @@ git clone https://github.com/GITHUB_LOGIN/js-katas.git
 cd js-katas
 ```
 
-### 2. Configure this repo
+### 2. Check your setup
 
-**Prerequisites**: you must have installed Node
-
-Install the needed libraries:
+**Prerequisites**: you must have installed Node.
 
 ```sh
-npm install
+node --version
 ```
+
+No other install is needed: the katas have no dependencies.
 
 ## Testing
 
-### 1. Fundamental katas
+Every kata carries its own tests, written with the Node Assert library:
+https://nodejs.org/api/assert.html
 
-Fundamental katas use the Node Assert testing library: https://nodejs.org/api/assert.html
-
-```sh
-node src/fundamental/kata-name/kata-name.js
-```
-
-### 2. Other katas
-
-The other katas use the Jest testing framework: https://jestjs.io/docs/getting-started
+Run a kata with:
 
 ```sh
-npm test -- kata-name
+node src/category/kata-name/kata-name.js
 ```
+
+It prints 🎉 when every assertion passes, and an `AssertionError` telling you
+what was expected and what your code returned otherwise.

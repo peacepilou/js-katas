@@ -14,4 +14,13 @@ Add you own tests.
 
 // TODO add your code here
 
-module.exports = abbreviate;
+// Begin of tests
+const assert = require("assert");
+
+assert.strictEqual(typeof abbreviate, "function");
+assert.strictEqual(abbreviate.length, 1);
+
+// TODO add your tests here
+// End of tests
+
+console.log("🎉");
